@@ -1,4 +1,4 @@
-function irAIndex() {
+function irAKinal() {
     window.location.href = "../../index.html";
 }
 
