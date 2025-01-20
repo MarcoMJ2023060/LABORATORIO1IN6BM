@@ -1,0 +1,52 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #7f807e;
+    min-height: 100vh;
+
+}
+
+nav {
+
+    background-color: #FF9843;
+    overflow: hidden;
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #070bfc;
+    color: rgb(57, 16, 236);
+}
+
+h1 {
+
+    color: #0c0c0c;
+    text-align: center;
+
+}
+
+p{
+
+    text-align: justify;
+
+}
+
+.opac{
+    filter: brightness(50%);
+}
+
+h5{
+
+text-align: center;
+
+}

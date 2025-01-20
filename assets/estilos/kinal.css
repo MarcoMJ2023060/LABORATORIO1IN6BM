@@ -1,0 +1,129 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    background-color: white;
+
+}
+
+
+p {
+
+    text-align: justify;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+h5 {
+
+    text-align: center;
+    border-radius: 25px 0px 25px 0px;
+    color: white;
+
+}
+
+.navbar {
+
+    background-color: #23376D;
+
+}
+
+.navbar :hover {
+
+    color: orange;
+
+}
+
+.nav-link {
+
+    color: white;
+
+}
+
+.container_footer {
+
+    margin: 0;
+
+}
+
+footer {
+    background-color: #23376D;
+    color: white;
+}
+
+.container1 {
+
+    background-color: #23376D;
+    min-width: 100vh;
+    border-radius: 0px -20px -20px 0px;
+
+}
+
+label {
+
+    font-size: 20px;
+    color: #23376D;
+
+}
+
+.container-111 {}
+
+.TextMid {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del slider */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo para las imágenes */
+.slides img {
+    width: 100%;
+    display: none;
+}
+
+/* Botones de navegación */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

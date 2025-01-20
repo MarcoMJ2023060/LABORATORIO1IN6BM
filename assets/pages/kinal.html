@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fundacion Kinal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/kinal.css">
+    <link rel="icon" href="../resources/imagenes/LogoK.png type="image/x-icon">
+    <link rel="shortcut icon" href="../resources/imagenes/LogoK.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="../resources/imagenes/LogoKinalpeque.png" style="width: 40%;">
+            </a>
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/kinal.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/donaciones.html">DONACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/quienessomos.html">QUIENES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/kinal.gt">TRABAJOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="irAIndex()">SALIR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slides">
+            <img src="../resources/imagenes/BannerKinal.jpg" alt="Imagen 1">
+            <img src="../resources/imagenes/BannerKinal.png" alt="Imagen 2">
+            <img src="../resources/imagenes/BannerKinal2.png" alt="Imagen 3">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <div class="container p-5">
+        <h1>El trabajo bien hecho</h1>
+        <p>
+            Kinal es un Centro Educativo Privado, no lucrativo, dirigido a la formacion técnica profesional de jóvenes y
+            adultos, de beneficio colectivo y asistencia social en favor a los sectores mas necesitados de la comunidad.
+            <br>
+            Nuestro valor fundamental es enseñar a realizar el trabajo bien hecho, que sea la base de la superación de
+            alumnos y el medio para servir a los demas.
+        </p>
+    </div>
+
+
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="">
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <img src="../resources/imagenes/basicos.png" style="width: 50%; border-radius: 5%;">
+                        </div>
+                        <h5 class="card-title" style="background-color: #8D1C3A; color: #ffff;">Ciclo Básico | 11-15
+                            años</h5>
+                        <p class="card-text">
+                            Kinal ofrece su programa de Educación General Básica para todos aquellos jóvenes que buscan
+                            una orientación técnica y excelencia académica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="">
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <img src="../resources/imagenes/Diver.png" style="width: 50%; border-radius: 5%;">
+                        </div>
+                        <h5 class="card-title" style="background-color: #1C2D5E; color: #ffff;">Diversificado | 15-18
+                            años</h5>
+                        <p>
+                            Durante 3 años se prepara al joven de forma técnica y académica, el egresado estará listo
+                            trabajar en el ramo técnico de la especialidad que eligió estudiar; el título obtenido le
+                            permitirá ingresar a la universidad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="">
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <img src="../resources/imagenes/tecnicoSuper.png" style="width: 50%; border-radius: 5%;">
+                        </div>
+                        <h5 class="card-title" style="background-color: #FEB319; color: #ffff;">Escuela Técnica |
+                            Adultos</h5>
+                        <p>
+                            Contamos con más de 30 especialidades técnicas y tecnológicas que pueden favorecer tu
+                            crecimiento y/o tu inserción laboral
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="">
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <img src="../resources/imagenes/ProgramaParaTuNegocio.png"
+                                style="width: 50%; border-radius: 5%;">
+                        </div>
+                        <h5 class="card-title" style="color: #1C2D5E;">Programas para tu
+                            negocio</h5>
+                        <p class="card-text">
+                            Podemos diseñar conjuntamente el programa de formación profesional que mejor se adapte a tus
+                            necesidades de capacitación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="">
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <img src="../resources/imagenes/TecnicosUniversitarios.png"
+                                style="width: 50%; border-radius: 5%;">
+                        </div>
+                        <h5 class="card-title" style="color: #1C2D5E;">Técnicos Universitarios
+                        </h5>
+                        <p>
+                            Dirigido al fortalecimiento de mandos medios y especialmente aquellos que han cursado una
+                            carrera técnica y desean continuar con estudios a nivel universitario. Estos estudios son
+                            avalados por la Universidad del Istmo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row p-3">
+            <h1>Partners Principales</h1>
+            <div class="col-sm-3">
+                <a href="https://unis.edu.gt">
+                    <img src="../resources/imagenes/Unis.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://academy.oracle.com/en/oa-web-overview.html">
+                    <img src="../resources/imagenes/OracleAcademy.jpg" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://autos.honda.com.gt">
+                    <img src="../resources/imagenes/Honda.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://latinoamerica.autodesk.com">
+                    <img src="../resources/imagenes/Autodesk.jpg" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.netacad.com/es/">
+                    <img src="../resources/imagenes/Cisco.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.dyned.com/">
+                    <img src="../resources/imagenes/Dyned.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.ets.org/toefl.html?utm_source=google&utm_medium=cpc&utm_campaign=toefl-pmax_latam-latam-acq-2025-Q1-10&gad_source=1&gclid=EAIaIQobChMIwqPE4syEiwMVN55aBR3hxyJbEAAYASAAEgKB4_D_BwE">
+                    <img src="../resources/imagenes/Toefl.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.vmware.com/">
+                    <img src="../resources/imagenes/Vmware.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.pearsonvue.com/">
+                    <img src="../resources/imagenes/Pearson.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://certiport.pearsonvue.com/">
+                    <img src="../resources/imagenes/Certiport.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://uh.ac.cr/herramientas/detalle/imagine-academy">
+                    <img src="../resources/imagenes/MicrosoftImagineAcademy.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.kryterion.com/">
+                    <img src="../resources/imagenes/Kryterion.png" style="width: 100%;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row p-3">
+            <h1>Sponsors Principales</h1>
+            <div class="col-sm-3">
+                <a href="https://www.5b.com.gt">
+                    <img src="../resources/imagenes/5B.jpg" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.corporacionbi.com/gt/bancoindustrial/">
+                    <img src="../resources/imagenes/Bi.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.banrural.com.gt/site/BanruralCorp/Personas.html?paginaActual=Personas.html">
+                    <img src="../resources/imagenes/Banrural.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.cempro.com">
+                    <img src="../resources/imagenes/CementosProgreso.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.grupodistelsa.com/">
+                    <img src="../resources/imagenes/GrupoDistelsa.png" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://autos.honda.com.gt">
+                    <img src="../resources/imagenes/Honda.png" style="width: 100%;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="col-sm-4 justify-content-center">
+                        <h2>Contactenos</h2>
+                        <div>
+                            <label for="">Correo electronico</label>
+                        </div>
+                        <input type="text">
+                        <div>
+                            <label for="">Mensaje</label>
+                        </div>
+                        <input type="text">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="../resources/imagenes/LogoKinalpeque.png style="width: 100%;">
+                    </div>
+                    <div class="col-sm-4">
+                        <p>
+                            6 avenida 13-54 zona 7 <br> Colonia Landívar 01007 <br>Ciudad de Guatemala, Guatemala, C.A.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/kinal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
