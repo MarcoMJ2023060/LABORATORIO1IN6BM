@@ -1,3 +1,3 @@
 function irABiografia() {
-    window.location.href = "biografia.html";
+    window.location.href = "../../index.html";
 }
